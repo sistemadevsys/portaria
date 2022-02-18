@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AF2D7DD-B49A-483E-9A05-9FE8239CB43F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GsPortaria.My.MyApplication</StartupObject>
+    <RootNamespace>GsPortaria</RootNamespace>
+    <AssemblyName>GsPortaria</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GsPortaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GsPortaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cancela.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Aplicativos\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\dll\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\dll\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\dll\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACESSO\Aviso01.designer.vb">
+      <DependentUpon>Aviso01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Aviso01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Aviso02.designer.vb">
+      <DependentUpon>Aviso02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Aviso02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Aviso03.designer.vb">
+      <DependentUpon>Aviso03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Aviso03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Aviso04.designer.vb">
+      <DependentUpon>Aviso04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Aviso04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\DashBoard.designer.vb">
+      <DependentUpon>DashBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\DashBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\Aviso08.designer.vb">
+      <DependentUpon>Aviso08.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\Aviso08.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\Aviso09.designer.vb">
+      <DependentUpon>Aviso09.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\Aviso09.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmAmplia02.designer.vb">
+      <DependentUpon>frmAmplia02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmAmplia02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmArmarios.designer.vb">
+      <DependentUpon>frmArmarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmArmarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmAtividade.designer.vb">
+      <DependentUpon>frmAtividade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmAtividade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmAtivPres.designer.vb">
+      <DependentUpon>frmAtivPres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmAtivPres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmAutorizados.designer.vb">
+      <DependentUpon>frmAutorizados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmAutorizados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmCadGar.designer.vb">
+      <DependentUpon>frmCadGar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmCadGar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmCadProp.designer.vb">
+      <DependentUpon>frmCadProp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmCadProp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Principal.designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Senhas.designer.vb">
+      <DependentUpon>Senhas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Senhas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\UserInicial.designer.vb">
+      <DependentUpon>UserInicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\UserInicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Registro.designer.vb">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\BDados.designer.vb">
+      <DependentUpon>BDados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\BDados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACESSO\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACESSO\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmCargo.designer.vb">
+      <DependentUpon>frmCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmDemissao.designer.vb">
+      <DependentUpon>frmDemissao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmDemissao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresaFun.designer.vb">
+      <DependentUpon>frmEmpresaFun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresaFun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresas.designer.vb">
+      <DependentUpon>frmEmpresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresaTrans.designer.vb">
+      <DependentUpon>frmEmpresaTrans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmEmpresaTrans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmFiltraFun.designer.vb">
+      <DependentUpon>frmFiltraFun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmFiltraFun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmFuncionarios.designer.vb">
+      <DependentUpon>frmFuncionarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmFuncionarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmHospedes.designer.vb">
+      <DependentUpon>frmHospedes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmHospedes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocacao.designer.vb">
+      <DependentUpon>frmLocacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocalizacao.designer.vb">
+      <DependentUpon>frmLocalizacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocalizacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocatario.designer.vb">
+      <DependentUpon>frmLocatario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLocatario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim.designer.vb">
+      <DependentUpon>frmLogMovim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim01.designer.vb">
+      <DependentUpon>frmLogMovim01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim02.designer.vb">
+      <DependentUpon>frmLogMovim02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmLogMovim02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmObsGar.designer.vb">
+      <DependentUpon>frmObsGar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmObsGar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmPesq01.designer.vb">
+      <DependentUpon>frmPesq01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmPesq01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmPrestadores.designer.vb">
+      <DependentUpon>frmPrestadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmPrestadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmSetor.designer.vb">
+      <DependentUpon>frmSetor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmSetor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\frmVeiculos01.designer.vb">
+      <DependentUpon>frmVeiculos01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\frmVeiculos01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTROS\Repositorio.designer.vb">
+      <DependentUpon>Repositorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTROS\Repositorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTRO_USER\CadUser.designer.vb">
+      <DependentUpon>CadUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTRO_USER\CadUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CADASTRO_USER\AlterSenha.designer.vb">
+      <DependentUpon>AlterSenha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CADASTRO_USER\AlterSenha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PORTARIA\Aviso10.designer.vb">
+      <DependentUpon>Aviso10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Aviso10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Pendencias.designer.vb">
+      <DependentUpon>Pendencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Pendencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmArmario02.designer.vb">
+      <DependentUpon>frmArmario02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmArmario02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegCasas.designer.vb">
+      <DependentUpon>frmRegCasas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegCasas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Movim02.designer.vb">
+      <DependentUpon>Movim02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Movim02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Movim03.designer.vb">
+      <DependentUpon>Movim03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Movim03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Movim04.designer.vb">
+      <DependentUpon>Movim04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Movim04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Movim01.designer.vb">
+      <DependentUpon>Movim01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Movim01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmAcompanhante.designer.vb">
+      <DependentUpon>frmAcompanhante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmAcompanhante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmAmplia01.designer.vb">
+      <DependentUpon>frmAmplia01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmAmplia01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmArmario01.designer.vb">
+      <DependentUpon>frmArmario01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmArmario01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmAusentes.designer.vb">
+      <DependentUpon>frmAusentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmAusentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmControleA.designer.vb">
+      <DependentUpon>frmControleA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmControleA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmFiltro.designer.vb">
+      <DependentUpon>frmFiltro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmFiltro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmListOc01.designer.vb">
+      <DependentUpon>frmListOc01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmListOc01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmListOc02.designer.vb">
+      <DependentUpon>frmListOc02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmListOc02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmLivro01.designer.vb">
+      <DependentUpon>frmLivro01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmLivro01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmObs01.designer.vb">
+      <DependentUpon>frmObs01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmObs01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmObs02.designer.vb">
+      <DependentUpon>frmObs02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmObs02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegAcesso.designer.vb">
+      <DependentUpon>frmRegAcesso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegAcesso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegAcVisitante.designer.vb">
+      <DependentUpon>frmRegAcVisitante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegAcVisitante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegistra.designer.vb">
+      <DependentUpon>frmRegistra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmRegistra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmVeiculos.designer.vb">
+      <DependentUpon>frmVeiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmVeiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\frmVisitante.designer.vb">
+      <DependentUpon>frmVisitante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\frmVisitante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTARIA\Portaria.designer.vb">
+      <DependentUpon>Portaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTARIA\Portaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RELATORIOS\frmRel004.designer.vb">
+      <DependentUpon>frmRel004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RELATORIOS\frmRel004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\CadTerminal.designer.vb">
+      <DependentUpon>CadTerminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\CadTerminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\Config.designer.vb">
+      <DependentUpon>Config.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\Config.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\Sobre.designer.vb">
+      <DependentUpon>Sobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\Sobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\Licenca.designer.vb">
+      <DependentUpon>Licenca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\Licenca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VARIAVEIS\iCam.vb" />
+    <Compile Include="VARIAVEIS\MySql.vb" />
+    <Compile Include="VARIAVEIS\Variaveis.vb" />
+    <Compile Include="VARIAVEIS\verificaconexao.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACESSO\Aviso01.resx">
+      <DependentUpon>Aviso01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Aviso02.resx">
+      <DependentUpon>Aviso02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Aviso03.resx">
+      <DependentUpon>Aviso03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Aviso04.resx">
+      <DependentUpon>Aviso04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\DashBoard.resx">
+      <DependentUpon>DashBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\Aviso08.resx">
+      <DependentUpon>Aviso08.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\Aviso09.resx">
+      <DependentUpon>Aviso09.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmAmplia02.resx">
+      <DependentUpon>frmAmplia02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmArmarios.resx">
+      <DependentUpon>frmArmarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmAtividade.resx">
+      <DependentUpon>frmAtividade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmAtivPres.resx">
+      <DependentUpon>frmAtivPres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmAutorizados.resx">
+      <DependentUpon>frmAutorizados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmCadGar.resx">
+      <DependentUpon>frmCadGar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmCadProp.resx">
+      <DependentUpon>frmCadProp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Senhas.resx">
+      <DependentUpon>Senhas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\UserInicial.resx">
+      <DependentUpon>UserInicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Registro.resx">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\BDados.resx">
+      <DependentUpon>BDados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACESSO\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmCargo.resx">
+      <DependentUpon>frmCargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmDemissao.resx">
+      <DependentUpon>frmDemissao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmEmpresaFun.resx">
+      <DependentUpon>frmEmpresaFun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmEmpresas.resx">
+      <DependentUpon>frmEmpresas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmEmpresaTrans.resx">
+      <DependentUpon>frmEmpresaTrans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmFiltraFun.resx">
+      <DependentUpon>frmFiltraFun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmFuncionarios.resx">
+      <DependentUpon>frmFuncionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmHospedes.resx">
+      <DependentUpon>frmHospedes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLocacao.resx">
+      <DependentUpon>frmLocacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLocalizacao.resx">
+      <DependentUpon>frmLocalizacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLocatario.resx">
+      <DependentUpon>frmLocatario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLogMovim.resx">
+      <DependentUpon>frmLogMovim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLogMovim01.resx">
+      <DependentUpon>frmLogMovim01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmLogMovim02.resx">
+      <DependentUpon>frmLogMovim02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmObsGar.resx">
+      <DependentUpon>frmObsGar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmPesq01.resx">
+      <DependentUpon>frmPesq01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmPrestadores.resx">
+      <DependentUpon>frmPrestadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmSetor.resx">
+      <DependentUpon>frmSetor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\frmVeiculos01.resx">
+      <DependentUpon>frmVeiculos01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTROS\Repositorio.resx">
+      <DependentUpon>Repositorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_USER\CadUser.resx">
+      <DependentUpon>CadUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_USER\AlterSenha.resx">
+      <DependentUpon>AlterSenha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Aviso10.resx">
+      <DependentUpon>Aviso10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Pendencias.resx">
+      <DependentUpon>Pendencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmArmario02.resx">
+      <DependentUpon>frmArmario02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmRegCasas.resx">
+      <DependentUpon>frmRegCasas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Movim02.resx">
+      <DependentUpon>Movim02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Movim03.resx">
+      <DependentUpon>Movim03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Movim04.resx">
+      <DependentUpon>Movim04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Movim01.resx">
+      <DependentUpon>Movim01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmAcompanhante.resx">
+      <DependentUpon>frmAcompanhante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmAmplia01.resx">
+      <DependentUpon>frmAmplia01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmArmario01.resx">
+      <DependentUpon>frmArmario01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmAusentes.resx">
+      <DependentUpon>frmAusentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmControleA.resx">
+      <DependentUpon>frmControleA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmFiltro.resx">
+      <DependentUpon>frmFiltro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmListOc01.resx">
+      <DependentUpon>frmListOc01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmListOc02.resx">
+      <DependentUpon>frmListOc02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmLivro01.resx">
+      <DependentUpon>frmLivro01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmObs01.resx">
+      <DependentUpon>frmObs01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmObs02.resx">
+      <DependentUpon>frmObs02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmRegAcesso.resx">
+      <DependentUpon>frmRegAcesso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmRegAcVisitante.resx">
+      <DependentUpon>frmRegAcVisitante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmRegistra.resx">
+      <DependentUpon>frmRegistra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmVeiculos.resx">
+      <DependentUpon>frmVeiculos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\frmVisitante.resx">
+      <DependentUpon>frmVisitante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTARIA\Portaria.resx">
+      <DependentUpon>Portaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RELATORIOS\frmRel004.resx">
+      <DependentUpon>frmRel004.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\CadTerminal.resx">
+      <DependentUpon>CadTerminal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\Config.resx">
+      <DependentUpon>Config.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\Sobre.resx">
+      <DependentUpon>Sobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\Licenca.resx">
+      <DependentUpon>Licenca.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="cancela.ico" />
+    <Content Include="icone_portaria.ico" />
+    <None Include="imagens\barra_menu_02.png" />
+    <None Include="imagens\btn_3d.png" />
+    <None Include="imagens\botão.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
