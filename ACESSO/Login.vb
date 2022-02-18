@@ -337,8 +337,7 @@ Public Class Login
             Case 0
                 Try
                     ' DevSys - Banco ja esta aberto apos a conexao para atualizar data
-                    'If conexao.State = ConnectionState.Closed Then conexao.Close()
-                    'conexao.Open()
+                    If conexao.State = ConnectionState.Closed Then conexao.Open()
                     Dim cmd As New MySqlCommand("select * from registro where REG001 = '" & tbReg001.Text & "'", conexao)
                     Dim drdr As MySqlDataReader
                     Dim bt() As Byte
