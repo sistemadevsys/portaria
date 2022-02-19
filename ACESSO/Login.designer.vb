@@ -97,6 +97,7 @@ Partial Class Login
         Me.btnAsenha.Name = "btnAsenha"
         Me.btnAsenha.Size = New System.Drawing.Size(46, 50)
         Me.btnAsenha.TabIndex = 264
+        Me.btnAsenha.Tag = ""
         Me.btnAsenha.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.ToolTip1.SetToolTip(Me.btnAsenha, "Acesso para alteração da senha do usuário")
         Me.btnAsenha.UseVisualStyleBackColor = False
@@ -127,6 +128,7 @@ Partial Class Login
         Me.btnexec.Name = "btnexec"
         Me.btnexec.Size = New System.Drawing.Size(238, 44)
         Me.btnexec.TabIndex = 236
+        Me.btnexec.Tag = ""
         Me.btnexec.Text = "ACESSAR"
         Me.ToolTip1.SetToolTip(Me.btnexec, "Validar Usuário e Senha")
         Me.btnexec.UseVisualStyleBackColor = False
@@ -282,6 +284,7 @@ Partial Class Login
         Me.lvdados.Name = "lvdados"
         Me.lvdados.Size = New System.Drawing.Size(238, 24)
         Me.lvdados.TabIndex = 248
+        Me.lvdados.Tag = ""
         '
         'Label6
         '
@@ -319,6 +322,7 @@ Partial Class Login
         Me.tbSenha.PasswordChar = Global.Microsoft.VisualBasic.ChrW(9824)
         Me.tbSenha.Size = New System.Drawing.Size(238, 24)
         Me.tbSenha.TabIndex = 0
+        Me.tbSenha.Tag = ""
         '
         'Label3
         '

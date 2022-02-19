@@ -677,15 +677,6 @@ Public Class Login
     End Sub
 #End Region
 
-
-
-
-
-
-
-
-
-
 End Class
 
 
