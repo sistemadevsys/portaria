@@ -24,18 +24,18 @@ Clonar o repositório no Github:
 git clone https://github.com/sistemadevsys/portaria.git
 ```
 
-Veja em [Homehost](#https://homehost.com.br) para mais detalhes do banco de dados MySQL na nuvem.
+Veja em [Homehost](https://homehost.com.br) para mais detalhes do banco de dados MySQL na nuvem.
 
 ### Installing
 
 Instalar o Visual Studio local, e após fazer a instalação do MySQL local com o Pluguin do Visual Studio.
 
 Executar os dumps dos bancos de dados MySQL no servidor da nuvem e no servidor local.
-Os dumps e outros arquivos é encontrado em arquivos no login do site [DevSys](#https://devsys.com.br)
+Os dumps e outros arquivos é encontrado em arquivos no login do site [DevSys](https://devsys.com.br)
 
 ## Usage <a name = "usage"></a>
 
 Ao executar o sistema, ele irá pedir os dados para gravar no arquivo .ini, entre com os dados de acesso dos servidores.
 
 ## Contributing <a name = "CONTRIBUTING"></a>
-- [Cesar](#https://CesarAugusto88.github.io)
+- [Cesar](https://CesarAugusto88.github.io)
