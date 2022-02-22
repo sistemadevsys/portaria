@@ -208,20 +208,18 @@ Public Class Login
                 xPort = LeArquivoINI(nome_arquivo_ini, "Registro", "iPorta", "")        ' PORTA DE ACESSO MYSQL
                 xUserMysql = LeArquivoINI(nome_arquivo_ini, "Registro", "iUserPass", "")        ' USUÁRIO PARA ACESSO AO BANCO DE DADOS
                 xSenhaMysql = LeArquivoINI(nome_arquivo_ini, "Registro", "iMacSistema", "") ' SENHA DE ACESSO AO CLOUD
+                conexao = New MySqlConnection("server=" & iservidor & "; port=" & iPort & "; database=" & iDatabase & "; Uid=" & iUserMysql & "; pwd=" & iSenhaMysql & "; SslMode=Required")  ' LOCAL
+                iconexao = New MySqlConnection("server=" & xServidor & "; port=" & xPort & "; database=" & xDatabase & "; Uid=" & xUserMysql & "; pwd=" & xSenhaMysql & "; SslMode=Required") ' 
 
-                'conexao = New MySqlConnection("server=" & iservidor & "; port=" & iPort & "; Database=" & iDatabase & "; Uid=" & iUserMysql & "; pwd=" & iSenhaMysql & "; SslMode=Required")  ' LOCAL
-                'iconexao = New MySqlConnection("server=" & xServidor & "; port=" & xPort & "; Database=" & xDatabase & "; Uid=" & xSenhaMysql & "; pwd=" & xSenhaMysql & "; SslMode=Required") ' 
-
-                'conexao = New MySqlConnection("Server=" & iservidor & ";Database=" & iDatabase & ";Uid=" & iUserMysql & ";pwd=" & iSenhaMysql & "; port=" & iPort & ";SslMode=Required")
-                'iconexao = New MySqlConnection("Server=" & xServidor & ";Database=" & xDatabase & ";Uid=" & xUserMysql & ";pwd=" & xSenhaMysql & "; port=" & xPort & ";SslMode=Required")
-                conexao = New MySqlConnection("server=localhost;port=3306;database=gstec;uid=root;password='1234' ")
-                iconexao = New MySqlConnection("server=177.85.97.191;port=3306;database=devsys01_portaria;uid=devsys01_devsys;password='DevSys_123' ")
-                ' DevSys - atualizar tabela registro com data de hoje antes de iniciar
-                If conexao.State = ConnectionState.Open Then conexao.Close()
-                Dim s1 As String = "update registro set REG013 = '" & Format(Data_hoje, "yyyy-MM-dd") & "'"
-                Dim cmnd As New MySqlCommand(s1, conexao)
-                conexao.Open()
-                cmnd.ExecuteNonQuery()
+                'conexao = New MySqlConnection("Server=" & iservidor & ";Port=" & iPort &  ";Database=" & iDatabase & ";Uid=" & iUserMysql & ";pwd=" & iSenhaMysql & "; port=" & iPort & ";SslMode=Required")
+                'iconexao = New MySqlConnection("Server=" & xServidor & ";Port=" & xPort &  ";Database=" & xDatabase & ";Uid=" & xUserMysql & ";pwd=" & xSenhaMysql & "; port=" & xPort & ";SslMode=Required")
+                'conexao = New MySqlConnection("server=;port=;database=;uid=;password='' ")
+               ' DevSys - atualizar tabela registro com data de hoje antes de iniciar
+                'If conexao.State = ConnectionState.Open Then conexao.Close()
+                'Dim s1 As String = "update registro set REG013 = '" & Format(Data_hoje, "yyyy-MM-dd") & "'"
+                'Dim cmnd As New MySqlCommand(s1, conexao)
+                'conexao.Open()
+                'cmnd.ExecuteNonQuery()
             Case 2
                 ' VERIFICA SE O SISTEMA JÁ ESTÁ REGISTRADO - TABELA REGISTRO
                 Dim ds As New DataSet

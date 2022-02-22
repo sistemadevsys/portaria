@@ -92,7 +92,7 @@ Partial Class Principal
         Me.cabecalho.Dock = System.Windows.Forms.DockStyle.Top
         Me.cabecalho.Location = New System.Drawing.Point(0, 0)
         Me.cabecalho.Name = "cabecalho"
-        Me.cabecalho.Size = New System.Drawing.Size(1258, 29)
+        Me.cabecalho.Size = New System.Drawing.Size(1276, 29)
         Me.cabecalho.TabIndex = 250
         '
         'TextoCabecalho
@@ -115,7 +115,7 @@ Partial Class Principal
         Me.btnMini.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMini.ImageKey = "emblemremove_93481.png"
         Me.btnMini.ImageList = Me.imgBarra
-        Me.btnMini.Location = New System.Drawing.Point(1187, 2)
+        Me.btnMini.Location = New System.Drawing.Point(1205, 2)
         Me.btnMini.Name = "btnMini"
         Me.btnMini.Size = New System.Drawing.Size(30, 30)
         Me.btnMini.TabIndex = 5
@@ -139,7 +139,7 @@ Partial Class Principal
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.ImageKey = "1486395882-close_80604.png"
         Me.btnClose.ImageList = Me.imgBarra
-        Me.btnClose.Location = New System.Drawing.Point(1224, 1)
+        Me.btnClose.Location = New System.Drawing.Point(1242, 1)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(30, 30)
         Me.btnClose.TabIndex = 3
@@ -166,9 +166,9 @@ Partial Class Principal
         Me.Panel2.Controls.Add(Me.relogio)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 743)
+        Me.Panel2.Location = New System.Drawing.Point(0, 732)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1258, 20)
+        Me.Panel2.Size = New System.Drawing.Size(1276, 20)
         Me.Panel2.TabIndex = 268
         '
         'lbConecta
@@ -176,7 +176,7 @@ Partial Class Principal
         Me.lbConecta.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lbConecta.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbConecta.ForeColor = System.Drawing.Color.Gray
-        Me.lbConecta.Location = New System.Drawing.Point(897, 2)
+        Me.lbConecta.Location = New System.Drawing.Point(915, 2)
         Me.lbConecta.Name = "lbConecta"
         Me.lbConecta.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
         Me.lbConecta.Size = New System.Drawing.Size(238, 17)
@@ -188,7 +188,7 @@ Partial Class Principal
         Me.tbData.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbData.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbData.ForeColor = System.Drawing.Color.Gray
-        Me.tbData.Location = New System.Drawing.Point(580, 2)
+        Me.tbData.Location = New System.Drawing.Point(598, 2)
         Me.tbData.Name = "tbData"
         Me.tbData.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
         Me.tbData.Size = New System.Drawing.Size(292, 17)
@@ -200,7 +200,7 @@ Partial Class Principal
         Me.tbTerminal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbTerminal.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbTerminal.ForeColor = System.Drawing.Color.Gray
-        Me.tbTerminal.Location = New System.Drawing.Point(427, 2)
+        Me.tbTerminal.Location = New System.Drawing.Point(445, 2)
         Me.tbTerminal.Name = "tbTerminal"
         Me.tbTerminal.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
         Me.tbTerminal.Size = New System.Drawing.Size(144, 17)
@@ -213,7 +213,7 @@ Partial Class Principal
         Me.tbUsuario.Cursor = System.Windows.Forms.Cursors.Hand
         Me.tbUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbUsuario.ForeColor = System.Drawing.Color.Gray
-        Me.tbUsuario.Location = New System.Drawing.Point(194, 2)
+        Me.tbUsuario.Location = New System.Drawing.Point(212, 2)
         Me.tbUsuario.Name = "tbUsuario"
         Me.tbUsuario.Padding = New System.Windows.Forms.Padding(0, 2, 0, 0)
         Me.tbUsuario.Size = New System.Drawing.Size(171, 17)
@@ -225,7 +225,7 @@ Partial Class Principal
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(110, 3)
+        Me.Label3.Location = New System.Drawing.Point(128, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(81, 13)
         Me.Label3.TabIndex = 253
@@ -236,7 +236,7 @@ Partial Class Principal
         Me.relogio.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.relogio.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.relogio.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.relogio.Location = New System.Drawing.Point(1194, 2)
+        Me.relogio.Location = New System.Drawing.Point(1212, 2)
         Me.relogio.Name = "relogio"
         Me.relogio.Padding = New System.Windows.Forms.Padding(0, 1, 0, 0)
         Me.relogio.Size = New System.Drawing.Size(62, 17)
@@ -249,7 +249,7 @@ Partial Class Principal
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(371, 3)
+        Me.Label4.Location = New System.Drawing.Point(389, 3)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 13)
         Me.Label4.TabIndex = 254
@@ -267,7 +267,7 @@ Partial Class Principal
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 29)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(108, 714)
+        Me.PanelMenu.Size = New System.Drawing.Size(108, 703)
         Me.PanelMenu.TabIndex = 270
         '
         'btnEncerra
@@ -284,7 +284,7 @@ Partial Class Principal
         Me.btnEncerra.Location = New System.Drawing.Point(57, 673)
         Me.btnEncerra.Name = "btnEncerra"
         Me.btnEncerra.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.btnEncerra.Size = New System.Drawing.Size(40, 30)
+        Me.btnEncerra.Size = New System.Drawing.Size(40, 25)
         Me.btnEncerra.TabIndex = 271
         Me.btnEncerra.Text = "          "
         Me.btnEncerra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -304,7 +304,7 @@ Partial Class Principal
         Me.btnTrocaUser.Location = New System.Drawing.Point(12, 673)
         Me.btnTrocaUser.Name = "btnTrocaUser"
         Me.btnTrocaUser.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
-        Me.btnTrocaUser.Size = New System.Drawing.Size(40, 30)
+        Me.btnTrocaUser.Size = New System.Drawing.Size(40, 25)
         Me.btnTrocaUser.TabIndex = 271
         Me.btnTrocaUser.Text = "         "
         Me.btnTrocaUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -325,7 +325,7 @@ Partial Class Principal
         Me.menus.Location = New System.Drawing.Point(0, 116)
         Me.menus.Name = "menus"
         Me.menus.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.menus.Size = New System.Drawing.Size(105, 598)
+        Me.menus.Size = New System.Drawing.Size(105, 587)
         Me.menus.TabIndex = 241
         Me.menus.Text = "ToolStrip1"
         '
@@ -593,7 +593,7 @@ Partial Class Principal
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(4, 24)
+        Me.PictureBox2.Location = New System.Drawing.Point(1, 24)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(101, 64)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -618,7 +618,7 @@ Partial Class Principal
         Me.frmBase.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.frmBase.Location = New System.Drawing.Point(108, 29)
         Me.frmBase.Name = "frmBase"
-        Me.frmBase.Size = New System.Drawing.Size(1150, 714)
+        Me.frmBase.Size = New System.Drawing.Size(1168, 703)
         Me.frmBase.TabIndex = 271
         '
         'Principal
@@ -626,7 +626,7 @@ Partial Class Principal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1258, 763)
+        Me.ClientSize = New System.Drawing.Size(1276, 752)
         Me.ControlBox = False
         Me.Controls.Add(Me.frmBase)
         Me.Controls.Add(Me.PanelMenu)
