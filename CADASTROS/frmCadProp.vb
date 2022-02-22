@@ -91,7 +91,7 @@ Public Class frmCadProp
                 lvDados.FullRowSelect = True
                 lvDados.View = View.Details
                 lvDados.Sorting = SortOrder.None
-                conexao.Open()
+                If conexao.State = ConnectionState.Closed Then conexao.Open() ' DevSys
                 Dim cmd As MySqlCommand = New MySqlCommand(sql, conexao)
                 Dim leitor As MySqlDataReader = cmd.ExecuteReader()
                 pop = 0

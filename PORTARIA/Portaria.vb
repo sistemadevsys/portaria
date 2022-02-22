@@ -218,7 +218,7 @@ Public Class Portaria
         lvDados.View = View.Details
         lvDados.Sorting = SortOrder.None
         lvDados.SmallImageList = ImageGrid
-        conexao.Open()
+        If conexao.State = ConnectionState.Closed Then conexao.Open() ' DevSys
         Dim cmd As MySqlCommand = New MySqlCommand(sql, conexao)
         Dim leitor As MySqlDataReader = cmd.ExecuteReader()
         Dim limpaCell As String = ""
@@ -431,11 +431,6 @@ Public Class Portaria
     End Sub
 #End Region
 
-
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
 End Class
 
 

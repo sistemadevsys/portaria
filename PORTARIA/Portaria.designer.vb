@@ -125,10 +125,10 @@ Partial Class Portaria
         Me.btnChaves.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnChaves.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnChaves.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnChaves.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnChaves.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnChaves.ForeColor = System.Drawing.Color.DimGray
         Me.btnChaves.Image = CType(resources.GetObject("btnChaves.Image"), System.Drawing.Image)
-        Me.btnChaves.Location = New System.Drawing.Point(1187, 657)
+        Me.btnChaves.Location = New System.Drawing.Point(1187, 649)
         Me.btnChaves.Name = "btnChaves"
         Me.btnChaves.Size = New System.Drawing.Size(50, 54)
         Me.btnChaves.TabIndex = 345
@@ -142,10 +142,10 @@ Partial Class Portaria
         Me.btnAcesso.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnAcesso.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnAcesso.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAcesso.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAcesso.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAcesso.ForeColor = System.Drawing.Color.DimGray
         Me.btnAcesso.Image = CType(resources.GetObject("btnAcesso.Image"), System.Drawing.Image)
-        Me.btnAcesso.Location = New System.Drawing.Point(1134, 657)
+        Me.btnAcesso.Location = New System.Drawing.Point(1134, 649)
         Me.btnAcesso.Name = "btnAcesso"
         Me.btnAcesso.Size = New System.Drawing.Size(50, 54)
         Me.btnAcesso.TabIndex = 344
@@ -160,10 +160,10 @@ Partial Class Portaria
         Me.btnTodos.FlatAppearance.BorderSize = 0
         Me.btnTodos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTodos.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTodos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnTodos.ForeColor = System.Drawing.Color.DimGray
         Me.btnTodos.Image = CType(resources.GetObject("btnTodos.Image"), System.Drawing.Image)
-        Me.btnTodos.Location = New System.Drawing.Point(9, 667)
+        Me.btnTodos.Location = New System.Drawing.Point(9, 659)
         Me.btnTodos.Name = "btnTodos"
         Me.btnTodos.Size = New System.Drawing.Size(35, 35)
         Me.btnTodos.TabIndex = 335
@@ -178,10 +178,10 @@ Partial Class Portaria
         Me.btnReservas.FlatAppearance.BorderSize = 0
         Me.btnReservas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReservas.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReservas.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReservas.ForeColor = System.Drawing.Color.DimGray
         Me.btnReservas.Image = CType(resources.GetObject("btnReservas.Image"), System.Drawing.Image)
-        Me.btnReservas.Location = New System.Drawing.Point(214, 667)
+        Me.btnReservas.Location = New System.Drawing.Point(214, 659)
         Me.btnReservas.Name = "btnReservas"
         Me.btnReservas.Size = New System.Drawing.Size(35, 35)
         Me.btnReservas.TabIndex = 342
@@ -197,10 +197,10 @@ Partial Class Portaria
         Me.btnAusentes.FlatAppearance.BorderSize = 0
         Me.btnAusentes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnAusentes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAusentes.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAusentes.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAusentes.ForeColor = System.Drawing.Color.DimGray
         Me.btnAusentes.Image = CType(resources.GetObject("btnAusentes.Image"), System.Drawing.Image)
-        Me.btnAusentes.Location = New System.Drawing.Point(91, 667)
+        Me.btnAusentes.Location = New System.Drawing.Point(91, 659)
         Me.btnAusentes.Name = "btnAusentes"
         Me.btnAusentes.Size = New System.Drawing.Size(35, 35)
         Me.btnAusentes.TabIndex = 337
@@ -215,10 +215,10 @@ Partial Class Portaria
         Me.btnPesquisa.FlatAppearance.BorderSize = 0
         Me.btnPesquisa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPesquisa.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPesquisa.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPesquisa.ForeColor = System.Drawing.Color.DimGray
         Me.btnPesquisa.Image = CType(resources.GetObject("btnPesquisa.Image"), System.Drawing.Image)
-        Me.btnPesquisa.Location = New System.Drawing.Point(132, 667)
+        Me.btnPesquisa.Location = New System.Drawing.Point(132, 659)
         Me.btnPesquisa.Name = "btnPesquisa"
         Me.btnPesquisa.Size = New System.Drawing.Size(35, 35)
         Me.btnPesquisa.TabIndex = 340
@@ -234,10 +234,10 @@ Partial Class Portaria
         Me.btnFiltro.FlatAppearance.BorderSize = 0
         Me.btnFiltro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnFiltro.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnFiltro.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFiltro.ForeColor = System.Drawing.Color.DimGray
         Me.btnFiltro.Image = CType(resources.GetObject("btnFiltro.Image"), System.Drawing.Image)
-        Me.btnFiltro.Location = New System.Drawing.Point(50, 667)
+        Me.btnFiltro.Location = New System.Drawing.Point(50, 659)
         Me.btnFiltro.Name = "btnFiltro"
         Me.btnFiltro.Size = New System.Drawing.Size(35, 35)
         Me.btnFiltro.TabIndex = 336
@@ -252,10 +252,10 @@ Partial Class Portaria
         Me.btnOcupados.FlatAppearance.BorderSize = 0
         Me.btnOcupados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnOcupados.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOcupados.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOcupados.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnOcupados.ForeColor = System.Drawing.Color.DimGray
         Me.btnOcupados.Image = CType(resources.GetObject("btnOcupados.Image"), System.Drawing.Image)
-        Me.btnOcupados.Location = New System.Drawing.Point(173, 667)
+        Me.btnOcupados.Location = New System.Drawing.Point(173, 659)
         Me.btnOcupados.Name = "btnOcupados"
         Me.btnOcupados.Size = New System.Drawing.Size(35, 35)
         Me.btnOcupados.TabIndex = 341
@@ -269,11 +269,11 @@ Partial Class Portaria
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Silver
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(571, 657)
+        Me.Button1.Location = New System.Drawing.Point(571, 649)
         Me.Button1.Name = "Button1"
         Me.Button1.Padding = New System.Windows.Forms.Padding(0, 1, 0, 0)
         Me.Button1.Size = New System.Drawing.Size(133, 54)
@@ -336,13 +336,13 @@ Partial Class Portaria
         '
         Me.Panel4.Location = New System.Drawing.Point(571, 328)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(680, 320)
+        Me.Panel4.Size = New System.Drawing.Size(680, 318)
         Me.Panel4.TabIndex = 343
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel1.Location = New System.Drawing.Point(9, 652)
+        Me.Panel1.Location = New System.Drawing.Point(9, 645)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1242, 1)
         Me.Panel1.TabIndex = 334
@@ -353,11 +353,11 @@ Partial Class Portaria
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Silver
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button4.Location = New System.Drawing.Point(973, 657)
+        Me.Button4.Location = New System.Drawing.Point(973, 649)
         Me.Button4.Name = "Button4"
         Me.Button4.Padding = New System.Windows.Forms.Padding(0, 1, 0, 0)
         Me.Button4.Size = New System.Drawing.Size(133, 54)
@@ -373,11 +373,11 @@ Partial Class Portaria
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Silver
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.Location = New System.Drawing.Point(839, 657)
+        Me.Button3.Location = New System.Drawing.Point(839, 649)
         Me.Button3.Name = "Button3"
         Me.Button3.Padding = New System.Windows.Forms.Padding(0, 1, 0, 0)
         Me.Button3.Size = New System.Drawing.Size(133, 54)
@@ -393,11 +393,11 @@ Partial Class Portaria
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Unicode MS", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Silver
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button2.Location = New System.Drawing.Point(705, 657)
+        Me.Button2.Location = New System.Drawing.Point(705, 649)
         Me.Button2.Name = "Button2"
         Me.Button2.Padding = New System.Windows.Forms.Padding(0, 1, 0, 0)
         Me.Button2.Size = New System.Drawing.Size(133, 54)
@@ -410,17 +410,17 @@ Partial Class Portaria
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel3.Location = New System.Drawing.Point(1109, 655)
+        Me.Panel3.Location = New System.Drawing.Point(1109, 645)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1, 57)
+        Me.Panel3.Size = New System.Drawing.Size(1, 67)
         Me.Panel3.TabIndex = 334
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel2.Location = New System.Drawing.Point(567, 655)
+        Me.Panel2.Location = New System.Drawing.Point(567, 645)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1, 57)
+        Me.Panel2.Size = New System.Drawing.Size(1, 67)
         Me.Panel2.TabIndex = 333
         '
         'PainelVagas
@@ -434,7 +434,7 @@ Partial Class Portaria
         Me.PainelVagas.Controls.Add(Me.lvDados)
         Me.PainelVagas.Location = New System.Drawing.Point(9, 2)
         Me.PainelVagas.Name = "PainelVagas"
-        Me.PainelVagas.Size = New System.Drawing.Size(554, 652)
+        Me.PainelVagas.Size = New System.Drawing.Size(556, 644)
         Me.PainelVagas.TabIndex = 338
         '
         'Panel12
@@ -451,7 +451,7 @@ Partial Class Portaria
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.Button8.FlatAppearance.BorderSize = 0
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.Silver
         Me.Button8.Location = New System.Drawing.Point(432, 5)
         Me.Button8.Name = "Button8"
@@ -466,7 +466,7 @@ Partial Class Portaria
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.Button7.FlatAppearance.BorderSize = 0
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.Silver
         Me.Button7.Location = New System.Drawing.Point(312, 5)
         Me.Button7.Name = "Button7"
@@ -481,7 +481,7 @@ Partial Class Portaria
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.Button6.FlatAppearance.BorderSize = 0
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Silver
         Me.Button6.Location = New System.Drawing.Point(192, 5)
         Me.Button6.Name = "Button6"
@@ -496,7 +496,7 @@ Partial Class Portaria
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Silver
         Me.Button5.Location = New System.Drawing.Point(6, 5)
         Me.Button5.Name = "Button5"
@@ -510,13 +510,13 @@ Partial Class Portaria
         Me.lvDados.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer))
         Me.lvDados.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.lvDados.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.COL00, Me.COL01, Me.COL02, Me.COL03, Me.COL04, Me.COL05, Me.COL06, Me.COL07, Me.ColumnHeader27})
-        Me.lvDados.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lvDados.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lvDados.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lvDados.GridLines = True
         Me.lvDados.HideSelection = False
         Me.lvDados.Location = New System.Drawing.Point(7, 7)
         Me.lvDados.Name = "lvDados"
-        Me.lvDados.Size = New System.Drawing.Size(540, 641)
+        Me.lvDados.Size = New System.Drawing.Size(540, 637)
         Me.lvDados.TabIndex = 244
         Me.lvDados.UseCompatibleStateImageBehavior = False
         Me.lvDados.View = System.Windows.Forms.View.Details
