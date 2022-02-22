@@ -14,7 +14,7 @@ Projeto Gs Portaria
 ## Getting Started <a name = "getting_started"></a>
 
 
-Para iniciar o projeto é preciso usar os sistemas operacionais Windows 10 ou 11.
+Para iniciar o projeto é preciso usar o sistema operacional Windows 10 ou 11.
 
 ### Prerequisites
 
@@ -32,10 +32,18 @@ Instalar o Visual Studio local, e após fazer a instalação do MySQL local com 
 
 Executar os dumps dos bancos de dados MySQL no servidor da nuvem e no servidor local.
 Os dumps e outros arquivos é encontrado em arquivos no login do site [DevSys](https://devsys.com.br)
+ ----- 
+Criar novo usuário para o MySQL:
+```
+select user, host from mysql.user; # Verificar usuários
+CREATE USER 'devsys'@'localhost' IDENTIFIED BY 'your_p@ssword';
+GRANT ALL ON *.* TO 'devsys'@'localhost';
+FLUSH PRIVILEGES;
+```
 
 ## Usage <a name = "usage"></a>
 
-Ao executar o sistema, ele irá pedir os dados para gravar no arquivo .ini, entre com os dados de acesso dos servidores.
+Ao executar o sistema, ele irá pedir os dados para gravar no arquivo .ini. Entre com os dados de acesso dos servidores.
 
 ## Contributing <a name = "CONTRIBUTING"></a>
 - [Cesar](https://CesarAugusto88.github.io)
