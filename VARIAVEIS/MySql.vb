@@ -15,8 +15,8 @@ Module MySql
     Public iservidor As String                  ' ENDEREÇO DO SERVIOR MySQL    
     Public iPort As String                      ' PORTA DE ACESSO AO SERVIDOR    
     Public iTerminal As String                  ' TERMINAL REGISTRADO JUNTO COM A PLACA E REDE QUE HABILITA A ESTAÇÃO DE TRABALHO 
-    Public iUserMysql As String = "root"        ' USUÁRIO DO BANCO MYSQL ( Deverá sempre ficar neste módulo e nunca no banco de dados)
-    Public iSenhaMysql As String = "SolCtrl2019!"   ' SENHA DO BANCO MYSQL   ( deverá ficar sempre neste módulo e nunca no vabco de dados)
+    Public iUserMysql As String = "devsys"       ' USUÁRIO DO BANCO MYSQL ( Deverá sempre ficar neste módulo e nunca no banco de dados)
+    Public iSenhaMysql As String = "1234"       ' SENHA DO BANCO MYSQL   ( deverá ficar sempre neste módulo e nunca no vabco de dados)
 
     Public Migra As New OleDbConnection           ' conexão para acesso ao banco acess
     Public iMigra As New MySqlConnection          ' STRING DE CONEXÃO SIMPLES
