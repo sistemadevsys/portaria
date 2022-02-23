@@ -215,11 +215,11 @@ Public Class Login
                 'iconexao = New MySqlConnection("Server=" & xServidor & ";Port=" & xPort &  ";Database=" & xDatabase & ";Uid=" & xUserMysql & ";pwd=" & xSenhaMysql & "; port=" & xPort & ";SslMode=Required")
                 'conexao = New MySqlConnection("server=;port=;database=;uid=;password='' ")
                ' DevSys - atualizar tabela registro com data de hoje antes de iniciar
-                'If conexao.State = ConnectionState.Open Then conexao.Close()
-                'Dim s1 As String = "update registro set REG013 = '" & Format(Data_hoje, "yyyy-MM-dd") & "'"
-                'Dim cmnd As New MySqlCommand(s1, conexao)
-                'conexao.Open()
-                'cmnd.ExecuteNonQuery()
+                If conexao.State = ConnectionState.Open Then conexao.Close()
+                Dim s1 As String = "update registro set REG013 = '" & Format(Data_hoje, "yyyy-MM-dd") & "'"
+                Dim cmnd As New MySqlCommand(s1, conexao)
+                conexao.Open()
+                cmnd.ExecuteNonQuery()
             Case 2
                 ' VERIFICA SE O SISTEMA JÁ ESTÁ REGISTRADO - TABELA REGISTRO
                 Dim ds As New DataSet
