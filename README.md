@@ -43,10 +43,10 @@ FLUSH PRIVILEGES;
 Excluir usuário e após dar privilégios necessário aos bancos de dados MySQL:
 ```
 select user, host from mysql.user;
-drop user root@localhost;
-CREATE USER 'root'@'localhost' IDENTIFIED BY 'your_p@ssword';
-GRANT ALL ON *.* TO 'root'@'localhost';
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_p@ssword';
+drop user devsys@localhost;
+CREATE USER 'devsys'@'localhost' IDENTIFIED BY 'your_p@ssword';
+GRANT ALL ON *.* TO 'devsy'@'localhost';
+ALTER USER 'devsys'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_p@ssword';
 FLUSH PRIVILEGES;
 ```
 
