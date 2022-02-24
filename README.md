@@ -36,9 +36,18 @@ Os dumps e outros arquivos é encontrado em arquivos no login do site [DevSys](h
 Criar novo usuário para o MySQL:
 ```
 select user, host from mysql.user; # Verificar usuários
-CREATE USER 'devsys'@'localhost' IDENTIFIED BY 'your_p@ssword';
-GRANT ALL ON *.* TO 'devsys'@'localhost';
+CREATE USER 'devsys'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_p@ssword';
+GRANT ALL PRIVILEGES ON gstec.* TO'devsys'@'localhost';
 FLUSH PRIVILEGES;
+```
+Excluir usuário e dar privilégios necessário ao banco de dados MySQL:
+```
+select user, host from mysql.user;
+drop user root@localhost;
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
+GRANT ALL ON *.* TO 'root'@'localhost';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password
+BY 'mypassword';
 ```
 
 ## Usage <a name = "usage"></a>
