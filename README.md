@@ -40,14 +40,14 @@ CREATE USER 'devsys'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_
 GRANT ALL PRIVILEGES ON gstec.* TO'devsys'@'localhost';
 FLUSH PRIVILEGES;
 ```
-Excluir usuário e dar privilégios necessário ao banco de dados MySQL:
+Excluir usuário e após dar privilégios necessário aos bancos de dados MySQL:
 ```
 select user, host from mysql.user;
 drop user root@localhost;
-CREATE USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'your_p@ssword';
 GRANT ALL ON *.* TO 'root'@'localhost';
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password
-BY 'mypassword';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_p@ssword';
+FLUSH PRIVILEGES;
 ```
 
 ## Usage <a name = "usage"></a>
